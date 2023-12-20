@@ -40,6 +40,12 @@ class User(db.Model):
             print(f"Error: {e}")
             return False
 
+class Api(Resource):
+    def get(self):
+        team = "Hallo Travel Budget Apps"
+        return jsonify(team)
+
+
 class HelloWorld(Resource):
     def get(self):
         users = User.query.all()
@@ -94,10 +100,10 @@ class Login(Resource):
             response = {'msg': 'Login gagal', 'code': '400'}
         return response
 
-
-api.add_resource(HelloWorld, '/', methods=['GET', 'POST'])
-api.add_resource(Update, '/<id>', methods=['PUT', 'DELETE'])
-api.add_resource(Login, '/login', methods=['POST'])
+api.add_resource(Api, '/', methods=['GET'])
+api.add_resource(HelloWorld, '/api', methods=['GET', 'POST'])
+api.add_resource(Update, '/api/<id>', methods=['PUT', 'DELETE'])
+api.add_resource(Login, '/api/login', methods=['POST'])
 
 if __name__ == '__main__':
     with app.app_context():
