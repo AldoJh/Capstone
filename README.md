@@ -12,4 +12,6 @@ Utilize virtual Environment to run app
 Install Flask, flas_restful, flask_cors, flask_sqlalchemy, dotenv
 
 #related repositories
-https://github.com/AldoJh/Mechine-Learning.git)https://github.com/AldoJh/Mechine-Learning.git
+<br>
+
+https://github.com/AldoJh/Mechine-Learning.git
