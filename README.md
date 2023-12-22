@@ -15,3 +15,5 @@ Install Flask, flas_restful, flask_cors, flask_sqlalchemy, dotenv
 <br>
 
 https://github.com/AldoJh/Mechine-Learning.git
+<br>
+https://github.com/arifnan/Friendly_Travel.git
