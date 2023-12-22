@@ -1,7 +1,7 @@
 # Friendly App
 ## A Budgeting and Trip Planner App Product Capstone
 
-Member of Team CH2-PS591
+Member of CC Team CH2-PS591
 | Member | Student ID | University |
 |:------:|:----------:|:----------:|
 | Joanna Margareth Nauli | C002BSX4089 | Bandung Institute of Technology |
